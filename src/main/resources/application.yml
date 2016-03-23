@@ -1,0 +1,16 @@
+spring:
+  profiles.include: registry
+server:
+  port: 33000
+eureka:
+  instance:
+    hostname: localhost
+    metadata-map:    
+      region: local
+      zone: laptop
+  client:
+    enabled: true
+    registerWithEureka: true       
+    fetchRegistry: true            
+    serviceUrl:
+      defaultZone: http://localhost:35000/eureka/ 
