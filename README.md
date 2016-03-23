@@ -6,7 +6,7 @@ Within STS, Select Run, Run Configurations.  Highlight Spring Boot and select Ne
 This repo assumes a Eureka registry is up on your local laptop listening on port 35000.  
 https://github.com/twhite0/demo-registry
 
-The service can be executed via:
+The service can be executed via.
 http://localhost:33000/demo/v0/consumer
 
 ## Jersey vs CXF
